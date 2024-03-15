@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CA0F638E2B960D9300E2B777 /* ActivityIndicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA0F638D2B960D9200E2B777 /* ActivityIndicator.swift */; };
 		CAF87F9E2B8E06D90035D0C8 /* CheckboxComponentApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAF87F9D2B8E06D90035D0C8 /* CheckboxComponentApp.swift */; };
 		CAF87FA02B8E06D90035D0C8 /* TermsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAF87F9F2B8E06D90035D0C8 /* TermsView.swift */; };
 		CAF87FA22B8E06DA0035D0C8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CAF87FA12B8E06DA0035D0C8 /* Assets.xcassets */; };
@@ -18,7 +19,6 @@
 		CAF87FCC2B8E0B820035D0C8 /* ButtonState.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAF87FCA2B8E0B820035D0C8 /* ButtonState.swift */; };
 		CAF87FCF2B8E0C9F0035D0C8 /* DesignConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAF87FCE2B8E0C9F0035D0C8 /* DesignConfig.swift */; };
 		CAF87FD12B8E27410035D0C8 /* StatefulButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAF87FD02B8E27410035D0C8 /* StatefulButtonView.swift */; };
-		CAF87FD32B8E275B0035D0C8 /* ActivityIndicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAF87FD22B8E275B0035D0C8 /* ActivityIndicator.swift */; };
 		CAF87FD52B8E27790035D0C8 /* UIColor+swiftUIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAF87FD42B8E27790035D0C8 /* UIColor+swiftUIColor.swift */; };
 /* End PBXBuildFile section */
 
@@ -40,6 +40,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		CA0F638D2B960D9200E2B777 /* ActivityIndicator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ActivityIndicator.swift; sourceTree = "<group>"; };
 		CAF87F9A2B8E06D90035D0C8 /* CheckboxComponent.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CheckboxComponent.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CAF87F9D2B8E06D90035D0C8 /* CheckboxComponentApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckboxComponentApp.swift; sourceTree = "<group>"; };
 		CAF87F9F2B8E06D90035D0C8 /* TermsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TermsView.swift; sourceTree = "<group>"; };
@@ -54,7 +55,6 @@
 		CAF87FCA2B8E0B820035D0C8 /* ButtonState.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ButtonState.swift; sourceTree = "<group>"; };
 		CAF87FCE2B8E0C9F0035D0C8 /* DesignConfig.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DesignConfig.swift; sourceTree = "<group>"; };
 		CAF87FD02B8E27410035D0C8 /* StatefulButtonView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StatefulButtonView.swift; sourceTree = "<group>"; };
-		CAF87FD22B8E275B0035D0C8 /* ActivityIndicator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ActivityIndicator.swift; sourceTree = "<group>"; };
 		CAF87FD42B8E27790035D0C8 /* UIColor+swiftUIColor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+swiftUIColor.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -111,8 +111,8 @@
 				CAF87FC72B8E07600035D0C8 /* TermsViewModel.swift */,
 				CAF87FCA2B8E0B820035D0C8 /* ButtonState.swift */,
 				CAF87FD02B8E27410035D0C8 /* StatefulButtonView.swift */,
+				CA0F638D2B960D9200E2B777 /* ActivityIndicator.swift */,
 				CAF87FD42B8E27790035D0C8 /* UIColor+swiftUIColor.swift */,
-				CAF87FD22B8E275B0035D0C8 /* ActivityIndicator.swift */,
 				CAF87FCE2B8E0C9F0035D0C8 /* DesignConfig.swift */,
 				CAF87FA12B8E06DA0035D0C8 /* Assets.xcassets */,
 				CAF87FA32B8E06DA0035D0C8 /* Preview Content */,
@@ -279,7 +279,7 @@
 				CAF87FD12B8E27410035D0C8 /* StatefulButtonView.swift in Sources */,
 				CAF87FCC2B8E0B820035D0C8 /* ButtonState.swift in Sources */,
 				CAF87FCF2B8E0C9F0035D0C8 /* DesignConfig.swift in Sources */,
-				CAF87FD32B8E275B0035D0C8 /* ActivityIndicator.swift in Sources */,
+				CA0F638E2B960D9300E2B777 /* ActivityIndicator.swift in Sources */,
 				CAF87F9E2B8E06D90035D0C8 /* CheckboxComponentApp.swift in Sources */,
 				CAF87FC82B8E07600035D0C8 /* TermsViewModel.swift in Sources */,
 				CAF87FD52B8E27790035D0C8 /* UIColor+swiftUIColor.swift in Sources */,
